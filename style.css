@@ -28,3 +28,9 @@
   justify-content: flex-start;
   align-items: center;
 }
+.titulo_site{
+    padding: 50px;
+    text-align: center;
+    width: 50%;
+    font: 30px;
+}
