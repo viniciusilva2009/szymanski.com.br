@@ -1,0 +1,36 @@
+.bg_navbar{
+  background-color: #433d8b;
+}
+.bg_dropdown{
+  background-color: #1a1967;
+}
+
+/* borda RGB */
+@keyframes rgb-border {
+  0% {
+    border-color: red;
+  }
+  33% {
+    border-color: green;
+  }
+  66% {
+    border-color: blue;
+  }
+  100% {
+    border-color: red;
+  }
+}
+.rgb-border {
+  border: 3px solid;
+  animation: rgb-border 2s infinite;
+  padding: 4px;
+  border-radius: 5px;
+}
+/* borda RGB */
+
+/* Remove o hover padrão do dropdown */
+.nav-item.dropdown .dropdown-menu a:hover {
+  background-color: #16165b; /* altera a cor do hover */
+  color: inherit; /* Mantém a cor original do texto */
+  text-decoration: none; /* Remove o sublinhado no hover, se houver */
+}
