@@ -4,6 +4,11 @@
 .bg_dropdown{
   background-color: #1a1967;
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
 /* borda RGB */
 @keyframes rgb-border {
